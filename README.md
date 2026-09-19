@@ -6,6 +6,8 @@ pytest + Allure Report の練習用サンプル。
 - `organize_files.py` は自作ツールを無変更でコピーしたもの（`config.ini` / `run_organizer.bat` は含まない）
 - テストは `tmp_path` の中だけで動く。実際のフォルダには触らない
 
+なぜこの構成にしたか（使っている仕組みと理由）は [docs/仕組み解説.md](docs/仕組み解説.md) にまとめています。
+
 ## 何をテストしているか
 
 `organize_files.py` は、フォルダ内のファイルを拡張子ごとのフォルダに振り分けるツールです。
